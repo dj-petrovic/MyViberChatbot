@@ -176,10 +176,8 @@ namespace TaxiLibrary.Viber
                                             }
                                             break;
                                         default:
-
                                             break;
-                                    }
-                                   
+                                    }                              
                                 }                              
                             }
                             else // waiting for location message
@@ -251,12 +249,7 @@ namespace TaxiLibrary.Viber
                                         message.TextMessage.TextToSend += " by sending  \"yes\" to confirm or \"no\" to cancel";
                                         message.TextMessage.Response();
                                     }
-                                }
-                            
-                            
-                              
-                                                                                      
-                             
+                                }                                                                                                                                                                                                   
                             }
                            
                             break;
@@ -283,7 +276,6 @@ namespace TaxiLibrary.Viber
 
         }      
     }
-
 
     public class DatabasUserSimulation
     {
